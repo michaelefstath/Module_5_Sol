@@ -132,7 +132,14 @@ function chooseRandomCategory (categories) {
   // Choose a random index into the array (from 0 inclusively until array length (exclusively)
   var categoryArray = ["A","B","C","CM","CSR","CU","D","DK","DS","F","FR","FY","L","NF","NL","NS","PF","SO","SP","SR","SS","T","V","VG"];
   //var randomArrayIndex = Math.floor(Math.random() * categories.length);
-  var randomShrtNm= categoryArray[Math.floor(Math.random() * categories.length)];
+  
+  var randomShrtNm;
+  
+  while (typeof randomShrtNm = undefined)
+  {
+    randomShrtNm= categoryArray[Math.floor(Math.random() * categories.length)];
+  }
+  
   // return category object with that randomArrayIndex
   return randomShrtNm;
   
