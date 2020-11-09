@@ -134,7 +134,7 @@ function buildAndShowHomeHTML (categories) {
 function chooseRandomCategory (categories) {
   // Choose a random index into the array (from 0 inclusively until array length (exclusively)
   var randomArrayIndex = Math.floor(Math.random() * categories.length);
-  var randomObjectSelect = array[Math.floor(Math.random() * categories.length)];
+  var randomObjectSelect = categories[Math.floor(Math.random() * categories.length)];
   console.log(randomArrayIndex);
   // return category object with that randomArrayIndex
   alert(randomObjectSelect);
