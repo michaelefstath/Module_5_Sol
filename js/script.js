@@ -133,10 +133,10 @@ function buildAndShowHomeHTML (categories) {
 // Given array of category objects, returns a random category object.
 function chooseRandomCategory (categories) {
   // Choose a random index into the array (from 0 inclusively until array length (exclusively)
-  var categoryArray = ['A','B','C','CM','CSR','CU','D','DK','DS','F','FR','FY','L','NF','NL','NS','PF','SO','SP','SR','SS','T','V','VG'];
-  var randomArrayIndex = Math.floor(Math.random() * categories.length);
+  var categoryArray = ["A","B","C","CM","CSR","CU","D","DK","DS","F","FR","FY","L","NF","NL","NS","PF","SO","SP","SR","SS","T","V","VG"];
+  //var randomArrayIndex = Math.floor(Math.random() * categories.length);
   var randomShrtNm= categoryArray[Math.floor(Math.random() * categories.length)];
-  console.log(randomArrayIndex);
+  //console.log(randomArrayIndex);
   // return category object with that randomArrayIndex
   alert(randomShrtNm);
   return randomShrtNm;
