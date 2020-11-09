@@ -135,7 +135,6 @@ function chooseRandomCategory (categories) {
   var randomShrtNm= categoryArray[Math.floor(Math.random() * categories.length)];
   //console.log(randomArrayIndex);
   // return category object with that randomArrayIndex
-  alert(randomShrtNm);
   return randomShrtNm;
   
 }
