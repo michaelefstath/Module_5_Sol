@@ -133,7 +133,7 @@ function chooseRandomCategory (categories) {
   var categoryArray = ["A","B","C","CM","CSR","CU","D","DK","DS","F","FR","FY","L","NF","NL","NS","PF","SO","SP","SR","SS","T","V","VG"];
   //var randomArrayIndex = Math.floor(Math.random() * categories.length);
   
-  var randomShrtNm;
+  var randomShrtNm = categoryArray[Math.floor(Math.random() * categories.length)];
   
   while (typeof randomShrtNm = undefined)
   {
