@@ -139,7 +139,7 @@ function chooseRandomCategory (categories) {
   console.log(randomArrayIndex);
   // return category object with that randomArrayIndex
   alert(randomShrtNm);
-  return categories[randomArrayIndex];
+  return randomShrtNm;
   
 }
 
